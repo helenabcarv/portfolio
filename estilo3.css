@@ -75,7 +75,7 @@ a {
     background-color: rgb(28, 28, 28);
     z-index: 2;
     bottom: 120px;
-    right: 480px;
+    right: 500px;
     color: whitesmoke;
 }
 #E {
@@ -85,7 +85,7 @@ a {
     background-color: rgb(34, 34, 34);
     z-index: 1;
     bottom: 30px;
-    right: 140px;
+    right: 180px;
     color: whitesmoke;
 }
 .titulo {
