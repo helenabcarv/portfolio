@@ -1,0 +1,114 @@
+body {
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+a { 
+    color: rgb(34, 34, 34);
+    text-decoration: none;
+    font-weight: bold;
+}
+#logo {
+    /*background: url(imagens/logo.png);
+    background-size: cover;*/
+    width: 100px;
+    height: 1px;
+}
+#principal {
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+.nav-link:hover {
+    color: #929292;
+}
+#menu ul {
+    list-style: none;
+    text-align: right;
+    padding-right: 70px;
+}
+#menu ul li {
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+#corpo {
+    width: 100%;
+    height: 100vh;
+    background-color: #fcfbbd;
+    clear: both;
+}
+#miniMenu {
+    background-color: rgb(34, 34, 34);
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    color: whitesmoke;
+    top: 100px;
+    z-index: 0;
+}
+#miniMenu ul {
+    list-style: none;
+}
+#miniMenu ul li {
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-left: solid whitesmoke 2px;
+}
+#miniMenu ul li a:hover {
+    color: #929292;
+}
+#miniMenu ul li:first-child {
+    border-left: none;
+    padding-left: 0px;
+}
+.links {
+    color: whitesmoke;
+}
+.batata {
+    width: 900px;
+    height: 500px;
+}
+#estudos {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(241, 227, 101);
+    padding: 100px;
+    padding-top: 200px;
+}
+#legenda {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+#caixas {
+    margin-top: 50px;
+    /*background-color: grey;*/
+}
+#carreira {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(223, 205, 102);
+    padding: 100px;
+    padding-top: 200px;
+}
+#botao {
+    margin: 0 auto;
+    text-align: center;
+    line-height: 350px;
+}
+#estudoss2 {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(241, 227, 101);
+    padding-left: 70px;
+    font-weight: bold;
+}
+#carreiras2 {
+    width: 100%;
+    height: 80vh;
+    background-color: rgb(223, 205, 102);
+    padding-left: 70px;
+    font-weight: bold;
+}

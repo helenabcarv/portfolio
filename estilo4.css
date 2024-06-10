@@ -1,0 +1,128 @@
+a { 
+    color: rgb(34, 34, 34);
+    text-decoration: none;
+    font-weight: bold;
+}
+#logo {
+    /*background: url(imagens/logo.png);
+    background-size: cover;*/
+    width: 100px;
+    height: 1px;
+}
+#principal {
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    width: 100%;
+}
+.nav-link:hover {
+    color: #929292;
+}
+#menu ul {
+    list-style: none;
+    text-align: right;
+    padding-right: 70px;
+}
+#menu ul li {
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+#corpo {
+    width: 100%;
+    height: 100vh;
+    background-color: #fcfbbd;
+    clear: both;
+}
+#esq , #dir {
+    padding-top: 150px;
+    display: flex;
+    display: inline-block;
+}
+#esq {
+    padding-left: 50px;
+}
+#dir {
+    float: inline-end;
+    margin-top: 74px;
+    padding-right: 50px;
+}
+#esquerda , #direita {
+    position: absolute;
+    bottom: 85px;
+    background-color: gray;
+    width: 890px;
+    height: 560px;
+}
+#esquerda {
+    left: 0;
+}
+#direita {
+    right: 0;
+}
+#A , #B, #C , #D , #E , #F , #G , #H {
+    position: absolute;
+    width: 445px;
+    height: 280px;
+    padding: 50px;
+    font-size: 16px;
+}
+#F , #G {
+    background-color: palevioletred;
+}
+#A , #E {
+    top: 0;
+    left: 0;
+}
+#B , #F {
+    top: 0;
+    right: 0;
+}
+#C , #G {
+    bottom: 0;
+    left: 0;
+}
+#D , #H {
+    bottom: 0;
+    right: 0;
+}
+#A {
+    background: url(imagens/pattern1.jpg);
+    background-size: cover;
+}
+#B {
+    background: url(imagens/pattern2.jpg);
+    background-size: cover;
+}
+#C {
+    background: url(imagens/pattern6.jpg);
+    background-size: cover;
+}
+#D {
+    background-color: rgb(34, 34, 34);
+    color: whitesmoke;
+}
+#E {
+    background-color: rgb(34, 34, 34);
+    color: whitesmoke;
+}
+#F {
+    background: url(imagens/pattern4.jpg);
+    background-size: cover;
+}
+#G {
+    background: url(imagens/pattern5.jpg);
+    background-size: cover;
+}
+#H {
+    background: url(imagens/pattern3.jpg);
+    background-size: cover;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 75px;
+}
+.btn {
+    width: 200px;
+    height: 60px;
+    font-size: 20px;
+}
